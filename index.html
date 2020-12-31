@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty Characters</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Which Rick and Morty Character are you?</h1>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="input_container">
+                    <h3><label for="txt_name">Enter your name:</label></h3>
+                    <input type="text" class="form-control" id="txt_name" autocomplete="off" required/>
+                    <span class="v_name"></span>
+                    <button class="btn btn-info" type="button" id="btn_submit">Submit</button><br /> 
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="result_container">
+            <div class="result_card">
+                <div id="img_container"></div>
+                <div class="character_card">
+                    <div id="name_status" class="section"></div>
+                    <div id="location" class="section"></div>
+                    <div id="first_seen" class="section"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>This generator uses the <a class="footlink" target="_blank" href="https://rickandmortyapi.com/">Rick and Morty API</a></p>
+        <span class="fab fa-github footlink"><a target="_blank" href="https://github.com/disensee"></a></span>
+        <span class="fab fa-twitter footlink"><a target="_blank" href="https://twitter.com/dylanisensee"></a></span>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
