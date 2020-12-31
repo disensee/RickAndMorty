@@ -55,10 +55,10 @@ h1 {
     background-color: #77a177;
 }
 
-/* .result_container {
+.result_container {
     overflow: hidden;
     width: 100%;
-} */
+}
 
 .result_card {
     display: flex;

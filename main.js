@@ -11,7 +11,7 @@ $('#txt_name').keypress(function(event){
      
 function generateChar(){
     $(".v_name").text("");
-    let input = $('#txt_name').val();
+    let input = $('#txt_name').val().trim();
     if(input === "" || input === null || !(isNaN(input))){
         $(".v_name").css("color", "red");
         $(".v_name").text("Please enter your name");
