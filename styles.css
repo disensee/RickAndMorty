@@ -79,6 +79,7 @@ h1 {
     flex-direction: column;
     font-family: 'Kanit', sans-serif;
     justify-content: space-between;
+    max-width: 450px;
     padding-left: 25px;
     padding-right: 75px;
 }
@@ -165,6 +166,7 @@ footer span {
 
     .character_card {
         border-radius: 0 0 7px 7px;
+        max-width: 300px;
     }
 
     .char_header{
